@@ -9,7 +9,7 @@ Now that you have an Authorization Code, you must exchange it for tokens. Using 
   "method": "POST",
   "url": "https://${account.namespace}/oauth/token",
   "headers": [
-    { "name": "Content-Type", "value": "application/json" }
+    { "name": "Content-Type", "value": "application/x-www-form-urlencoded" }
   ],
   "postData": {
     "mimeType": "application/json",
